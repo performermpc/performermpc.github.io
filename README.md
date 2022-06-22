@@ -1,39 +1,16 @@
-<!---
-## Welcome to GitHub Pages
+## Performer MPC
 
-You can use the [editor on GitHub](https://github.com/performermpc/performermpc.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Abstract
+Despite decades of research, existing navigation systems still face real-world challenges when deployed in the wild, e.g., in cluttered home environments or in human-occupied public spaces. To address this, we present a new class of implicit control policies combining the benefits of imitation learning with the robust handling of system constraints from Model Predictive Control (MPC). Our approach, called Performer-MPC, uses a learned cost function parameterized by vision context embeddings provided by Performers---a low-rank implicit-attention Transformer. We jointly train the cost function and construct the controller relying on it, effectively solving end-to-end the corresponding bi-level optimization problem. We show that the resulting policy improves standard MPC performance by leveraging a few expert demonstrations of the desired navigation behavior in different challenging real-world scenarios. Compared with a standard MPC policy, Performer-MPC achieves >40% better goal reached in cluttered environments and >65% better on social metrics when navigating around humans. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Paper Link
 
-### Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Supplementary Video
 
-```markdown
-Syntax highlighted code block
+[<img src="https://img.youtube.com/vi/uu8-c5H50e8/maxresdefault.jpg" width="90%">](https://youtu.be/uu8-c5H50e8 "Supplementary Video")
 
-# Header 1
-## Header 2
-### Header 3
+### Scenarios
+[<img src="https://img.youtube.com/vi/mWDiplwBF2c/maxresdefault.jpg" width="45%">](https://youtu.be/mWDiplwBF2c "Scenario 1")  [<img src="https://img.youtube.com/vi/lOGytuLteTg/maxresdefault.jpg" width="45%">](https://youtu.be/lOGytuLteTg "Scenario 2")
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/performermpc/performermpc.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
---->
+[<img src="https://img.youtube.com/vi/GTQz_tsbeP0/maxresdefault.jpg" width="45%">](https://youtu.be/GTQz_tsbeP0 "Scenario 3")  [<img src="https://img.youtube.com/vi/4O6WNSXfk7k/maxresdefault.jpg" width="45%">](https://youtu.be/4O6WNSXfk7k "Scenario 4")
